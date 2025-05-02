@@ -1,0 +1,123 @@
+.navColor {
+  color: #F7F7F7;
+  background-color: #2A4B7C;
+}
+
+.homeImgColor {
+  background-color: #2A4B7C;
+}
+
+.containerFinances {
+  padding: 1rem;
+}
+
+.containerFinances p {
+  color: #262626;
+  margin-bottom: 2rem;
+}
+
+.inputFinances {
+  margin-bottom: 1rem;
+}
+
+.formFinances label {
+  color: #151515;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.formFinances select {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #D9D9D9;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.formFinances button {
+  border: none;
+  background-color: #03A696;
+  color: #F7F7F7;
+  justify-self: center;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.containerLaunchs {
+  padding: 1rem;
+  background-color: #D9D9D9;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  min-height: 10rem;
+  max-height: 10rem;
+  overflow-y: scroll;
+}
+
+.containerLaunchsBg {
+  padding: 1rem;
+}
+
+.containerLaunchsBg>p {
+  margin-bottom: 0.5rem;
+  color: #151515;
+}
+
+.launch {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.launch button {
+  border: none;
+  background-color: #262626;
+  color: #F7F7F7;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.launchEntry p {
+  color: #228B22;
+}
+
+.launchOutflow p {
+  color: #CC4E3D;
+}
+
+@media (min-width: 768px) {
+  .generalContainer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+
+  .financesContainer {
+    grid-column: 2;
+    grid-row: 1;
+    height: 100vh;
+    padding: 0 2rem;
+  }
+
+  .barContainer {
+    grid-column: 1;
+  }
+
+  .containerLaunchs {
+    min-height: 9rem;
+    max-height: 9rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .financesContainer {
+    padding: 0 3rem;
+  }
+}

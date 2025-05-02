@@ -1,0 +1,88 @@
+.bar {
+  background-color: #D9D9D9;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.barFlex {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.barFlex li {
+  color: #151515;
+  display: grid;
+  justify-items: center;
+  gap: 0.5rem;
+  min-width: 2rem;
+  font-size: 0.625rem;
+}
+
+.barFlex li button {
+  color: #151515;
+  display: grid;
+  justify-items: center;
+  gap: 0.5rem;
+  border: none;
+  background: transparent;
+  font-size: 0.625rem;
+  position: relative;
+}
+
+.desactivated {
+  display: none;
+}
+
+.active {
+  display: grid;
+  position: absolute;
+  top: -314px;
+  right: 0;
+  background-color: #D9D9D9;
+  border: 1px solid #151515;
+}
+
+.menuBar {
+  display: grid;
+  justify-items: center;
+  padding: 1.5rem 0;
+  gap: 1rem;
+}
+
+.menuBar li {
+  font-size: 1.3rem;
+  padding: 0.5rem 3rem;
+  color: #151515;
+}
+
+@media (min-width: 768px) {
+  .bar {
+    position: static;
+  }
+
+  .barFlex {
+    display: none;
+  }
+
+  .desactivated {
+    display: grid;
+    height: 100vh;
+  }
+
+  .active {
+    display: grid;
+    height: 100vh;
+  }
+
+  .menuBar {
+    max-height: 10rem;
+    justify-items: start;
+  }
+
+  .menuBar li {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+  }
+}

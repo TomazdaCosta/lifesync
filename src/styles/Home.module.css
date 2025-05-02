@@ -1,0 +1,140 @@
+.title {
+  color: #151515;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.content {
+  color: #262626;
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.container {
+  padding: 2rem 1rem;
+}
+
+.navigationPages {
+  display: grid;
+  gap: 2rem;
+}
+
+.navigationPages li {
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+}
+
+.finances {
+  color: #F7F7F7;
+  background-color: #2A4B7C;
+}
+
+.goals {
+  color: #F7F7F7;
+  background-color: #9C27B0;
+}
+
+.notes {
+  color: #F7F7F7;
+  background-color: #CC4E3D;
+}
+
+.tasks {
+  color: #F7F7F7;
+  background-color: #228B22;
+}
+
+.modalHome {
+  background-color: #D9D9D9;
+  padding: 2rem;
+  max-width: 20rem;
+}
+
+.modalHome h1 {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.modalHome p {
+  font-size: 1rem;
+  color: #262626;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.formModal {
+  display: grid;
+  gap: 1rem;
+}
+
+.formModal label {
+  font-size: 1rem;
+  color: #262626;
+}
+
+.formModal input {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.formModal button {
+  border: none;
+  background-color: #03A696;
+  color: #F7F7F7;
+  justify-self: center;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.containerModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000082;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  z-index: 3;
+}
+
+.disabledModal {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .generalContainer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+
+  .barContainer {
+    grid-column: 1;
+    grid-row: 1;
+    height: 100vh;
+  }
+
+  .container {
+    grid-column: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 1rem 3rem;
+  }
+
+  .navigationPages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}

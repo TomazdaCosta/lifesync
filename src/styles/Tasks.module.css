@@ -1,0 +1,116 @@
+.navColor {
+  color: #F7F7F7;
+  background-color: #228B22;
+}
+
+.homeImgColor {
+  background-color: #228B22;
+}
+
+.containerForm {
+  padding: 1rem;
+}
+
+.containerForm p {
+  margin-bottom: 2rem;
+}
+
+.containerForm button {
+  border: none;
+  background-color: #03A696;
+  color: #F7F7F7;
+  justify-self: center;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.containerTasks {
+  padding: 1rem;
+}
+
+.containerTasks>p {
+  margin-bottom: 0.5rem;
+}
+
+.containerTasksNav button {
+  border: 1px solid #7d7d7d;
+  background-color: #D9D9D9;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.containerTasksBg {
+  padding: 1rem;
+  background-color: #D9D9D9;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  min-height: 18rem;
+  max-height: 18rem;
+  overflow-y: scroll;
+}
+
+.task {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+  background-color: #F7F7F7;
+  padding: 0.5rem;
+  border: 1px solid #7d7d7d;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.remove {
+  border: none;
+  background-color: #CC4E3D;
+  color: #F7F7F7;
+  padding: 0.25rem 1rem;
+  border-radius: 0.3rem;
+  margin-right: 0.5rem;
+}
+
+.achieved {
+  border: none;
+  background-color: #228B22;
+  color: #F7F7F7;
+  padding: 0.2rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.containerTasksNav button.actived {
+  border: 1px solid #03A696;
+  color: #03A696;
+}
+
+@media (min-width: 768px) {
+  .generalContainer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+
+  .tasksContainer {
+    grid-column: 2;
+    grid-row: 1;
+    height: 100vh;
+  }
+
+  .barContainer {
+    grid-column: 1;
+  }
+
+  .containerTasksBg {
+    min-height: 17rem;
+    max-height: 17rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .tasksContainer {
+    padding: 0 3rem;
+  }
+}

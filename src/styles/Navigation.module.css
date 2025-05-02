@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.container li,
+.container img {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+}
+
+.container img {
+  max-width: 1.3rem;
+}
