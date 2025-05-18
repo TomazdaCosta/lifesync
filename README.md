@@ -17,9 +17,9 @@ O projeto trata-se de um app desenvolvido para dispositivos mobile e desktop, on
 
 ## Layout Web
 
-<img width="1280" alt="Captura de Tela 2025-05-18 às 12 25 56" src="https://github.com/user-attachments/assets/8e44994e-a3fd-42fb-9c64-4b28b03d31dc" />
-<img width="1280" alt="Captura de Tela 2025-05-18 às 12 26 56" src="https://github.com/user-attachments/assets/1a7889d9-5d32-4467-bfe9-14d2b5d67113" />
-<img width="1280" alt="Captura de Tela 2025-05-18 às 12 27 20" src="https://github.com/user-attachments/assets/f6402144-863b-457a-8529-b6c091f9c4e6" />
+<img width="1280" alt="Captura de Tela 2025-05-18 às 12 37 41" src="https://github.com/user-attachments/assets/6c535c24-cbfd-4d7e-b184-657a37a308d1" />
+<img width="1280" alt="Captura de Tela 2025-05-18 às 12 38 10" src="https://github.com/user-attachments/assets/b736867c-1ec6-4c46-8a2a-87265610aeca" />
+<img width="1280" alt="Captura de Tela 2025-05-18 às 12 38 39" src="https://github.com/user-attachments/assets/f173088e-090f-4abd-a947-6ca31ebede8a" />
 
 ## Layout Mobile
 
