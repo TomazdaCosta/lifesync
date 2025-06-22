@@ -6,7 +6,7 @@ O projeto trata-se de um app desenvolvido para dispositivos mobile e desktop, on
 
 ## Acesse o site
 
-[https://tomazdacosta.github.io/Floricultura/](https://tomazdacosta.github.io/lifesync/)
+[https://tomazdacosta.github.io/lifesync/](https://tomazdacosta.github.io/lifesync/)
 
 ## Tecnologias utilizadas
 
